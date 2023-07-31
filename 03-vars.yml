@@ -31,6 +31,6 @@
 - name: demo on play level variables
   hosts: all
   vars:
-    url-play: anil.example.com
+    url_play: anil.example.com
   roles:
     - sample

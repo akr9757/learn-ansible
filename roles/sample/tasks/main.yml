@@ -9,4 +9,4 @@
 
 - name: print variable from play
   ansible.builtin.debug:
-    msg: url - {{ url-play }}
+    msg: url - {{ url_play }}
