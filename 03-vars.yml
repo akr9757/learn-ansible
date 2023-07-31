@@ -27,3 +27,10 @@
     - name: print url
       ansible.builtin.debug:
         msg: url - {{ url }}
+
+- name: demo on play level variables
+  hosts: all
+  vars:
+    url-play: anil.example.com
+  roles:
+    - sample
