@@ -34,3 +34,10 @@
     url_play: anil.example.com
   roles:
     - sample
+
+
+- name: run shell command
+  hosts: all
+    - name: run uptime shell command
+      ansible.builtin.shell:
+        msg: uptime
